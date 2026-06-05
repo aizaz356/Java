@@ -4,8 +4,8 @@ public class Student03 {
 
 
     public static void main(String args[]) {
-        Student03  s1 = new Student03();         // create an instance(object) of new Student03 class and assign it to s1
-        Student03  s2 = new Student03();         // create another instance(object) of new Student03 class and assign it to s2
+        Student03  s1 = new Student03();         // create an instance(object) of new class(Student03) and assign it to s1
+        Student03  s2 = new Student03();         // create another instance(object) of new class(Student03) and assign it to s2
 
         System.out.println("num: " + Student03.num);
 

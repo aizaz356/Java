@@ -3,19 +3,19 @@ public class Animal05 {
 
     // String msg = "Test message";   // 03 add this and change msg below
 
-    public int getlegs() {      // 02 make this private
+    public int getLegs() {      // 02 make this private
         return this.legs;
     }
 
     public void printLegCount(String msg) {
-        System.out.println(msg + ": "  + getlegs());
+        System.out.println(msg + ": "  + getLegs());
     }
 
     // java doesn't have a destructor
 
     
     public static void main(String args[]) {
-        Animal05 a = new Animal05();
+        Animal05 a = new Animal05();               // Create an instance(object) of the new class(Animal05)
 
         a.printLegCount("Legs are"); 
 

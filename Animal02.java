@@ -18,7 +18,7 @@ public class Animal02 {
 
     public static void main(String args[]) {
         System.out.println("Main function called ... ");
-        Animal02 a = new Animal02();  // create an instance        ->object of the class
+        Animal02 a = new Animal02();  // create an instance(object) of the new class(Animal02)
         System.out.println("Legs: " + a.legs);
 
         //add call to method
